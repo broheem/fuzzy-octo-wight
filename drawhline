@@ -1,0 +1,6 @@
+ public static String drawHLine(int n, char ch){
+        String result ="";
+        for (int i=0; i< n; i++)
+            result += ch;
+        return result;
+    }
